@@ -39,6 +39,15 @@ const AdminVaccinationCenters = () => {
           console.error(error);
         });
     };
+    const handleDeleteSlots = () => {
+      axios.post(`http://localhost:8080/admin/vaccine/delete/${center.centreNumber}`)
+        .then((response) => {
+          console.log(response.data);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    };
     return (
       <div className="vaccination-center-item">
         <h4>{center.centreNumber}</h4>
@@ -54,6 +63,7 @@ const AdminVaccinationCenters = () => {
           onChange={(e) => setSlotsToUpdate(e.target.value)}
         />
         <button onClick={handleUpdateSlots}>Update</button>
+        <button onClick={handleDeleteSlots}>Delete</button>
       </div>
       </div>
     );
