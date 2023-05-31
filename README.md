@@ -4,7 +4,7 @@
 
 ## Demo Video
 
-[![Demo Video]](https://drive.google.com/file/d/1WfmOxt85IZGkNkjHwpJJ1pW77qLL6ltw/view?usp=drive_link)
+![Demo Video](https://drive.google.com/file/d/1WfmOxt85IZGkNkjHwpJJ1pW77qLL6ltw/view?usp=drive_link)
 
 
 ## System Design
