@@ -41,7 +41,7 @@ This is a vaccine application that allows users to book slots for vaccination, c
 
 ## System Design
 
-![System Design](design/systemDesign.png)
+![System Design](design/System%20Design.png)
 
 The system design diagram illustrates the architecture and flow of the vaccine application.
 
