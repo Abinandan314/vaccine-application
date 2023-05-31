@@ -86,7 +86,7 @@ List<VaccinationCentre> vaccinationCentreList = vaccinationRepository.findAllByL
     public ResponseEntity<?> cancelBooking(String id){
         Optional<Booking> booking = bookingRepository.findById(id);
         Optional<VaccinationCentre> vaccinationCentre = vaccinationRepository.findByCentreNumber(booking.get().getCentreNumber());
-        vaccinationCentre.get().setSlotsAvailable(vaccinationCentre.get().getSlotsAvailable() - 1);
+        vaccinationCentre.get().setSlotsAvailable(vaccinationCentre.get().getSlotsAvailable() + 1);
         vaccinationRepository.save(vaccinationCentre.get());
         bookingRepository.delete(bookingRepository.findById(id).get());
         return new ResponseEntity<>("Successfully Updated",HttpStatus.OK);
