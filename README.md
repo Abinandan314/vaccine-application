@@ -2,6 +2,22 @@
 
 This is a vaccine application that allows users to book slots for vaccination, cancel their bookings, view open slots, and allows third-party vendors to register their vaccination centers and update the dosage, vaccine details, and slot availability.
 
+## System Design
+
+![System Design](design/System%20Design.PNG)
+
+The system design diagram illustrates the architecture and flow of the vaccine application.
+
+## Happy Path For User and Admin
+![Happy Path For User](design/User%20Happy%20Path.PNG)
+
+The system design diagram illustrates the User flow of the vaccine application.
+
+![Happy Path for Admin](design/Admin%20Happy%20Path.PNG)
+
+The system design diagram illustrates the Admin flow of the vaccine application.
+
+
 ## Technologies Used
 
 - Front-end: React JS
