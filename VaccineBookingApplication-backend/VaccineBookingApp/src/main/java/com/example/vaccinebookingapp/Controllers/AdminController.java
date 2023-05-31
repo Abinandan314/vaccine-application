@@ -49,4 +49,8 @@ public class AdminController {
         System.out.println(updateSlotsDTO.getToBeAddedSlots());
         return vaccineService.updateSlotsAvailable(updateSlotsDTO.getCentreNumber(),updateSlotsDTO.getToBeAddedSlots());
     }
+    @PostMapping("/vaccine/delete/{centreNumber}")
+    public ResponseEntity<?> deleteVaccinationCentres(@PathVariable(name = "centreNumber") String centreNumber){
+        return vaccineService.deleteVaccinationCentre(centreNumber);
+    }
 }
