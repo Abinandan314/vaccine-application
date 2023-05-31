@@ -37,7 +37,7 @@ The system design diagram illustrates the Admin flow of the vaccine application.
 - Cancel Bookings: Users can cancel their booked appointments.
 - Open Slot View: Users can view available slots for vaccination without booking.
 - Vendor Registration: Third-party vendors can register their vaccination centers.
-- Update Center Details: Vendors can update the dosage, vaccine details, and slot availability for their centers.
+- Update and Delete Center Details: Vendors can update the dosage, vaccine details, and slot availability for their centers.
 
 ## Installation
 
