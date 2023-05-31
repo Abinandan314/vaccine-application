@@ -1,5 +1,5 @@
 # Vaccine Application
-
+This Application is developed as part of DevRev Hiring Process
 This is a vaccine application that allows users to book slots for vaccination, cancel their bookings, view open slots, and allows third-party vendors to register their vaccination centers and update the dosage, vaccine details, and slot availability.
 
 ## System Design
@@ -55,16 +55,3 @@ The system design diagram illustrates the Admin flow of the vaccine application.
 - Navigate to the respective sections to book slots, view open slots, or manage vendor details.
 - Follow the on-screen instructions to perform the desired actions.
 
-## System Design
-
-![System Design](design/System%20Design.PNG)
-
-The system design diagram illustrates the architecture and flow of the vaccine application.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
