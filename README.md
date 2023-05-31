@@ -55,9 +55,3 @@ The system design diagram illustrates the Admin flow of the vaccine application.
 4. Configure the MongoDB connection in the `application.properties` file.
 5. Build and run the Spring application.
 
-## Usage
-
-- Register a new user account or login with existing credentials.
-- Navigate to the respective sections to book slots, view open slots, or manage vendor details.
-- Follow the on-screen instructions to perform the desired actions.
-
