@@ -110,4 +110,5 @@ List<VaccinationCentre> vaccinationCentreList = vaccinationRepository.findAllByL
         }
         return new ResponseEntity<>(bookingResponseList,HttpStatus.OK);
     }
+    
 }
