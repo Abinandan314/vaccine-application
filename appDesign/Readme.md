@@ -8,22 +8,22 @@ This file will take you through the UI and functionality of the application
 ## Screenshots
 
 ### Home
-![Home](homePage.PNG)
+![Home](homePage.png)
 
 ### Login
-![Login](loginPage.PNG)
+![Login](loginPage.png)
 
 ### Register
-![Register](registerPage.PNG)
+![Register](registerPage.png)
 
 ### Slot Booking
-![Slot Booking](slotBookingPage.PNG)
+![Slot Booking](slotBookingPage.png)
 
 ### View and Cancel Booking
-![View and Cancel Booking](viewAndCancelBookingPage.PNG)
+![View and Cancel Booking](viewAndCancelBookingPage.png)
 
 ### Add New Center
-![Add New Center](addVaccinationCentrePage.PNG)
+![Add New Center](addVaccinationCentrePage.png)
 
 ### Update Center
-![Update Center](updateSlotsPage.PNG)
+![Update Center](updateSlotsPage.png)
