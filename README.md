@@ -1,5 +1,4 @@
 # Vaccine Application
-- This Application is developed as part of DevRev Hiring Process
 - This is a vaccine application that allows users to book slots for vaccination, cancel their bookings, view open slots, and allows third-party vendors to register their vaccination centers and update the dosage, vaccine details, and slot availability.
 [Outcomes Overview](appDesign/Readme.md)
 
